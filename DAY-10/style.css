@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    max-width: 500px;
+    margin: 0 auto;
+}
