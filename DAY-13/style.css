@@ -1,0 +1,19 @@
+*{
+    margin : 0;
+    border : 0;
+    box-sizing : border-box;
+}
+
+body{
+    width : 100vw;
+    height : 100vh;
+    background-color : rgb(29, 29, 233);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.container h1{
+    font-size : 200px;
+    color : rgb(36, 36, 32);
+}

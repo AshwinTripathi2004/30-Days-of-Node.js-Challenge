@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My WebSocket</title>
+</head>
+<body>
+    <div class="container">
+        <h1>WebSockets!</h1>
+    </div>
+    <script>
+        const socket = new WebSocket('ws://localhost:3000');
+
+        socket.addEventListener('open', function (event) {
+        console.log('WebSocket connection established');
+        socket.send('Hello WebSocket Server');
+        });
+
+        socket.addEventListener('message', function (event) {
+        console.log('Message from server:', event.data);
+        });
+    </script>
+</body>
+</html>
