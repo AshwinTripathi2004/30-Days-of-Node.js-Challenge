@@ -7,6 +7,7 @@ function readFileContent(filePath){
         }
         else{
             console.log("File Data is :- \n" + data);
+            // If you want to convert the buffer to a string, uncomment the next line
         }
     });
 }
